@@ -1,0 +1,92 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-div{
+    display: flex;
+    width: 900px;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+}
+
+
+.search-label{
+    display: block;
+    margin-top: 0.5rem;
+    font-size: large;
+    font-weight: 600;
+}
+
+.search-input{
+    margin-top: 0.5rem;
+    height: 25px;
+}
+
+.my-bookshelf-btn-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+.my-bookshelf-btn-div-2{
+    text-align: center;
+    width: 100%;
+}
+
+.my-bookshelf-btn{
+    padding: 0.65rem;
+    margin: 10px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: #15b915;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-div{
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 1rem;
+    max-width: 900px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border: 1px solid rgb(163, 163, 163);
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+
+.book-title > span,
+.edition-count > span {
+    font-weight: 600;
+}
+
+.add-btn{
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #15b915;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+}
