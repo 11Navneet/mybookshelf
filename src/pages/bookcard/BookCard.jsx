@@ -51,6 +51,7 @@ const BookCard = () => {
       const updatedBookshelf = [...existingBookshelf, book];
       localStorage.setItem("bookshelf", JSON.stringify(updatedBookshelf));
       setBookshelf(updatedBookshelf);
+      console.log("bookshelf",bookshelf)
     } else {
       alert(`Book '${book.title}' already exists in your bookshelf.`);
     }
